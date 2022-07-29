@@ -17,6 +17,9 @@ namespace Github_semana2_IvaniaG
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
 
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
+
             // Ask the user to type the first number.
             Console.WriteLine("Coloque primer numero, presione enter");
             num1 = Convert.ToInt32(Console.ReadLine());

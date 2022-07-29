@@ -30,25 +30,25 @@ namespace Github_semana2_IvaniaG
 
             // Ask the user to choose an option.
             Console.WriteLine("Elija una opcion:");
-            Console.WriteLine("\ta - Suma");
-            Console.WriteLine("\ts - Resta");
-            Console.WriteLine("\tm - Multiplicacion");
-            Console.WriteLine("\td - Division");
+            Console.WriteLine("\t1 - Suma");
+            Console.WriteLine("\t2 - Resta");
+            Console.WriteLine("\t3 - Multiplicacion");
+            Console.WriteLine("\t4 - Division");
             Console.Write("El resultado es? ");
 
             // Use a switch statement to do the math.
             switch (Console.ReadLine())
             {
-                case "a":
+                case "1":
                     Console.WriteLine($"El resultado es: {num1} + {num2} = " + (num1 + num2));
                     break;
-                case "s":
+                case "2":
                     Console.WriteLine($" El resultado es: {num1} - {num2} = " + (num1 - num2));
                     break;
-                case "m":
+                case "3":
                     Console.WriteLine($"El resultado es: {num1} * {num2} = " + (num1 * num2));
                     break;
-                case "d":
+                case "4":
                     Console.WriteLine($"El resultado es: {num1} / {num2} = " + (num1 / num2));
                     break;
             }

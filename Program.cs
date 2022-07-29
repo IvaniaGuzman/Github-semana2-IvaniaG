@@ -53,7 +53,7 @@ namespace Github_semana2_IvaniaG
                     break;
             }
             // Wait for the user to respond before closing.
-            Console.Write("Presione enter para salir");
+            Console.Write("Oprima el boton enter para salir");
             Console.ReadKey();
 
         }
